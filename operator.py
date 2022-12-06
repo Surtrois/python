@@ -17,6 +17,13 @@ print(chibre)
 chibre = chibre % 2
 print(chibre)
 
+#operateur de comparaison
+#egalité == "renvoie une valeur de type bouleen (true/false)"
+
+tyt = 1 == 1
+print(tyt)
+
+
 
 
 
