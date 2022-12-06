@@ -109,5 +109,14 @@ a = c - a
 b = c - b
 print(a, b)
 
+#transtypage
+huh="123"
+huh = int(huh) #str vers int
+print(type(huh))
 
+huh=float(huh) #float vers int
+print(type(huh))
 
+huh= 3.14
+huh= int(huh)
+print(huh)#float vers int permet de suppr ce qu'il y a après la virgule 
