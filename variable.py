@@ -1,5 +1,5 @@
 #l'operateur permet d'affecter une valeur dans une variable 
-
+import random
 my_number1 = 123
 my_number2 = -784
 
@@ -120,3 +120,14 @@ print(type(huh))
 huh= 3.14
 huh= int(huh)
 print(huh)#float vers int permet de suppr ce qu'il y a après la virgule 
+
+#bool tout les nombres donnent true et 0 donne false
+my_number3 = random.randint(0, 1)
+print(bool(my_number3))
+
+if bool(my_number3):
+   print("le cacaaaa")
+else:
+    print("vive la vie")
+
+    
