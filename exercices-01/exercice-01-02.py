@@ -3,3 +3,4 @@
 
 # réponse 1.2
 
+print('programme terminé')
