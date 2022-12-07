@@ -130,4 +130,17 @@ if bool(my_number3):
 else:
     print("vive la vie")
 
-    
+
+fruits = ("ananas", "cerise", "pomme")
+#operateur d'inclusion
+result = "ananas" in fruits
+print(result)
+result = "banane" in fruits
+print(result)
+
+#conversion implicite en bool
+if fruits:
+    print("la liste contient les fruit")
+else:
+    print("les fruit ne sont pas la")
+
