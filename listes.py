@@ -33,3 +33,22 @@ if index < combien:
 #possible d'augmenter ou diminuer avec -= ou +=
 
 
+#ajouter un element
+#supprimer un element
+#inserer un element
+fruits.append('datte')
+print(fruits)
+#supprime le fruit
+del fruits[3]
+#supprime le dernier element et peut le stocker dans une variable
+fruits.pop()
+
+#supprimer le premier et stocker
+fruits.pop(0)
+print(fruits)
+
+#inserer un element (ne pas oublier qu'on demarre de 0) choisir 1 --> on se place entre 0 et 1 
+fruits.insert(2, 'kiwi')
+print(fruits)
+
+
