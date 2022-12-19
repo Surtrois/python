@@ -81,3 +81,8 @@ rasult = bool(a) or bool(b)
 print (a, b)
 print(rasult)
 
+counter = 10
+while counter:
+    print(f"{counter}")
+    counter -= 1
+#enleve -1 a chaque fois que while est executer 
