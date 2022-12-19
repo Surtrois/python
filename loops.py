@@ -45,3 +45,22 @@ for fruit in fruits:
 for i, fruit in enumerate(fruits):
     print(f'{i}: {fruit}')
 #enumere ce qu'il y a dans la liste
+
+
+#le 3 eme parametre de range permet de specifier l'increment (de 2 en 2 par ex)
+for counter in range(0, 10, 2):
+    print(f'{counter = }')
+
+
+#compte a rebours 
+for counter in range(10, 0, -1):
+    print(f'{counter}')
+
+print(fruits[::-1])
+
+#les deux suivant sont equivalent 
+for fruit in reversed(fruits):
+    print(fruit)
+
+for fruit in fruits[::-1]:
+    print(fruit)
