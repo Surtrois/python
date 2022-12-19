@@ -4,3 +4,6 @@
 my_list = [2.71, 42]
 
 # réponse 6.8
+
+print(sum(my_list))
+

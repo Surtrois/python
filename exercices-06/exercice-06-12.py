@@ -4,3 +4,10 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.12
+
+nombre = 0
+for i in range(len(my_list)):
+    if my_list[i]<=10:
+        nombre += 1
+    i+=1
+print(i)

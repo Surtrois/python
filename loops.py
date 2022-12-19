@@ -56,11 +56,34 @@ for counter in range(0, 10, 2):
 for counter in range(10, 0, -1):
     print(f'{counter}')
 
+#ça envoie la liste a l'envers
 print(fruits[::-1])
 
 #les deux suivant sont equivalent 
+#le moins gourmand en mémoire est le premier
 for fruit in reversed(fruits):
     print(fruit)
 
 for fruit in fruits[::-1]:
     print(fruit)
+
+#on cherche un 2
+my_list = [123, 2, 42, 3.14, 56]
+for item in my_list:
+    if item == 2:
+        print("il y a un deux")
+
+2 in my_list #renvoie un bouleen
+my_number = 2
+for item in my_list:
+    if item == my_number:
+        counter += 1
+        print(item)
+print(f'{counter = }')
+
+accumulateur = 0
+
+for item in my_list:
+    accumulateur += item
+
+print(f'{accumulateur =} ')
