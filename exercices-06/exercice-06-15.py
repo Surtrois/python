@@ -5,6 +5,12 @@
 my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit']
 
 # réponse 6.15
-
+index = 0
+longueur = 0
 for i in range(len(my_list)):
+    if len(my_list[i]) > longueur:
+        longueur= len(my_list[i])
+        index = i
     
+print(index, my_list[index], longueur)
+
