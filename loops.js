@@ -8,3 +8,9 @@ for (let i = 0; i < 10; i++) {
 do {
     console.log("ce message sera affiché au moins une fois");
 } while (false);
+
+
+let fruits = ['banane', 'cerise', 'pomme']
+for (let i = 0; i < fruits.length; i++) {
+    console.log(i)
+}

@@ -87,3 +87,25 @@ for item in my_list:
     accumulateur += item
 
 print(f'{accumulateur =} ')
+
+#fait 2 par deux avec le 2 a la fin 
+for i in range(0, len(fruits), 2):
+    print(fruits[i])
+
+
+#une boucle for dans une boucle for 
+#voir ça comme des coordonnés dans un tableau
+#x longitude y latitude 
+for x in range(0, 10):
+    for y in range(0,10):
+        print(x, y)
+my_array = [
+    ['a', 'c'],
+    ['b', 'd']
+]
+
+#len(my_array) donne le nombre de ligne 
+#len(my_array[0]) donne le nombre de colonne
+for b in range(0, len(my_array)):
+    for v in range(0,len(my_array[0])):
+        print(b, v, my_array[b][v])
